@@ -1,4 +1,5 @@
 -- このスクリプトは、Microsoft PowerPoint　for mac のアクティブプレゼンテーションからテキストボックスのテキストを収集し、クリップボードに保存します。
+-- グループ化されたシェイプはコピーできないので、グループ化されたシェイプはグループ解除してからコピーします。
 set the clipboard to ""
 
 tell application "Microsoft PowerPoint"
